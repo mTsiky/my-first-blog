@@ -1,0 +1,24 @@
+[diff "astextplain"]
+	textconv = astextplain
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[http]
+	sslBackend = openssl
+	sslCAInfo = C:/Users/asus/djangogirls/Git/mingw64/ssl/certs/ca-bundle.crt
+[core]
+	autocrlf = true
+	fscache = true
+	symlinks = false
+	useBuiltinFSMonitor = true
+	editor = \"C:\\\\Program Files\\\\Sublime Text 3\\\\subl.exe\" -w
+[pull]
+	rebase = false
+[credential]
+	helper = manager-core
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[init]
+	defaultBranch = master
