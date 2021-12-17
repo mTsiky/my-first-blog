@@ -14,15 +14,15 @@ db.sqlite3
 # Static folder at project root
 /static/
 
-# macOS 
+# macOS
 ._*
 .DS_Store
 .fseventsd
 .Spotlight-V100
 
-# Windows 
+# Windows
 Thumbs.db*
-enthumbs*.db
+ehthumbs*.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
 
